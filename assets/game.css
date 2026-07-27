@@ -239,6 +239,35 @@ button.secondary {
   font-size: 26px;
 }
 
+.sources {
+  text-align: left;
+  margin: 20px 0;
+  padding: 14px 16px;
+  background: #fefaf2;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+.sources-title {
+  font-weight: 700;
+  margin: 0 0 8px;
+  font-size: 17px;
+}
+
+.sources ul {
+  margin: 0;
+  padding-left: 20px;
+  line-height: 1.8;
+}
+
+.sources .source-cat {
+  font-weight: 700;
+}
+
+.sources a {
+  color: #a15c00;
+}
+
 footer.site-footer {
   text-align: center;
   margin-top: 40px;

@@ -187,6 +187,20 @@
     }
   }
 
+  function buildSourcesHtml() {
+    const withSources = PUZZLE_DATA.categories.filter((c) => c.source && c.source.url);
+    if (withSources.length === 0) return "";
+    const items = withSources
+      .map((c) => `<li><span class="source-cat">${c.name}</span>：<a href="${c.source.url}" target="_blank" rel="noopener">${c.source.title || "阅读原文"}</a></li>`)
+      .join("");
+    return `
+      <div class="sources">
+        <p class="sources-title">想读更多今天的新闻？</p>
+        <ul>${items}</ul>
+      </div>
+    `;
+  }
+
   function showOverlay(won) {
     const overlay = document.getElementById("overlay");
     overlay.classList.remove("hidden");
@@ -194,6 +208,7 @@
       overlay.innerHTML = `
         <h2>🎉 全部找到了！</h2>
         <p>恭喜完成今天的词语连连看！明天再来挑战新的一期吧。</p>
+        ${buildSourcesHtml()}
         <p><a href="../archive.html">查看往期</a></p>
       `;
     } else {

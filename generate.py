@@ -3,7 +3,13 @@
 
 Usage: python3 generate.py puzzle.json
 where puzzle.json is {"date": "2026-07-27", "categories": [{"name": str,
-"difficulty": "yellow"|"green"|"blue"|"purple", "words": [4 strings]}, x4]}
+"difficulty": "yellow"|"green"|"blue"|"purple", "words": [4 strings],
+"source": {"title": str, "url": str} (optional)}, x4]}
+
+"source" is the real news article that inspired that category -- shown as a
+link in the win panel so solving the puzzle ties back to the actual news of
+the day. Omit it for a category with no clean single-article source; the win
+panel only lists categories that have one.
 """
 import json
 import os
