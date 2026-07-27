@@ -27,13 +27,15 @@ PAGE_TEMPLATE = """<!DOCTYPE html>
       <p class="date">{date}</p>
     </header>
     <p class="instructions">选择 4 个你认为相关的词语，然后点击「提交」。</p>
-    <div class="mistakes">剩余机会：<span id="mistake-count">4</span> 次 <span class="dots" id="mistake-dots"></span></div>
+    <div class="mistakes-wrap">
+      <div class="mistakes">剩余机会：<span id="mistake-count">4</span> 次 <span class="dots" id="mistake-dots"></span></div>
+      <div id="flash-message" class="flash-overlay"></div>
+    </div>
     <div class="solved-groups" id="solved-groups"></div>
     <div class="grid" id="grid"></div>
     <div class="controls">
       <button class="primary" id="submit-btn" disabled>提交</button>
     </div>
-    <p id="flash-message" style="text-align:center; font-size:18px; color:#a15c00; transition:opacity 0.3s; opacity:0;"></p>
     <div class="overlay hidden" id="overlay"></div>
     <footer class="site-footer">
       <a href="{archive_path}">往期回顾</a> &middot; <a href="{index_path}">今日题目</a>

@@ -146,10 +146,33 @@ button.secondary {
   cursor: pointer;
 }
 
+.mistakes-wrap {
+  position: relative;
+  margin-bottom: 16px;
+}
+
 .mistakes {
   text-align: center;
   font-size: 18px;
-  margin-bottom: 16px;
+}
+
+.flash-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  color: #a15c00;
+  background: #fefaf2;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
 }
 
 .mistakes .dots {
