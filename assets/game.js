@@ -2,11 +2,12 @@
 // { date: "2026-07-27", categories: [{ name, difficulty, words: [4 strings] }, x4] }
 (function () {
   const MAX_MISTAKES = 4;
-  const DIFFICULTY_ORDER = ["yellow", "green", "blue", "purple"];
+  const CORRECT_FLASH_MS = 550;
 
   const state = {
-    tiles: [],       // [{ word, categoryIndex, selected }]
-    solved: [],       // categoryIndex[] in the order solved
+    tiles: [],        // [{ word, categoryIndex, selected }]
+    solved: [],        // categoryIndex[], in the order actually solved
+    justSolvedIndex: null, // categoryIndex of the group that should play its entrance animation on this render only
     mistakes: 0,
     over: false,
   };
@@ -49,13 +50,19 @@
     const allSameCategory = sel.every((t) => t.categoryIndex === categoryIndex);
 
     if (allSameCategory) {
-      state.solved.push(categoryIndex);
-      state.tiles = state.tiles.filter((t) => t.categoryIndex !== categoryIndex);
-      render();
-      if (state.solved.length === PUZZLE_DATA.categories.length) {
-        state.over = true;
-        showOverlay(true);
-      }
+      const difficulty = PUZZLE_DATA.categories[categoryIndex].difficulty;
+      flashCorrectTiles(difficulty, () => {
+        state.solved.push(categoryIndex);
+        state.tiles = state.tiles.filter((t) => t.categoryIndex !== categoryIndex);
+        state.justSolvedIndex = categoryIndex;
+        const won = state.solved.length === PUZZLE_DATA.categories.length;
+        if (won) state.over = true;
+        render();
+        if (won) {
+          triggerConfetti();
+          showOverlay(true);
+        }
+      });
       return;
     }
 
@@ -81,6 +88,13 @@
     document.querySelectorAll(".tile.selected").forEach((el) => el.classList.add("shake"));
   }
 
+  function flashCorrectTiles(difficulty, callback) {
+    document.querySelectorAll(".tile.selected").forEach((el) => {
+      el.classList.add("correct-flash", difficulty);
+    });
+    setTimeout(callback, CORRECT_FLASH_MS);
+  }
+
   function flashMessage(text) {
     const el = document.getElementById("flash-message");
     if (!el) return;
@@ -93,6 +107,26 @@
     location.reload();
   }
 
+  function triggerConfetti() {
+    if (typeof document.body === "undefined" || !document.body) return;
+    const colors = ["#f9df6d", "#a0c35a", "#b0c4ef", "#ba81c5", "#ff8a65"];
+    const container = document.createElement("div");
+    container.className = "confetti-container";
+    for (let i = 0; i < 90; i++) {
+      const piece = document.createElement("div");
+      piece.className = "confetti-piece";
+      piece.style.left = (Math.random() * 100) + "vw";
+      piece.style.background = colors[Math.floor(Math.random() * colors.length)];
+      piece.style.animationDelay = (Math.random() * 0.4) + "s";
+      piece.style.animationDuration = (2 + Math.random() * 1.5) + "s";
+      container.appendChild(piece);
+    }
+    document.body.appendChild(container);
+    setTimeout(() => {
+      if (container.remove) container.remove();
+    }, 4000);
+  }
+
   function render() {
     renderSolvedGroups();
     renderGrid();
@@ -103,18 +137,19 @@
   function renderSolvedGroups() {
     const container = document.getElementById("solved-groups");
     container.innerHTML = "";
-    // Always show in a stable, difficulty-sorted order once solved.
-    const sortedSolved = state.solved.slice().sort(
-      (a, b) => DIFFICULTY_ORDER.indexOf(PUZZLE_DATA.categories[a].difficulty) -
-                 DIFFICULTY_ORDER.indexOf(PUZZLE_DATA.categories[b].difficulty)
-    );
-    sortedSolved.forEach((ci) => {
+    // Completion order, not difficulty order -- the order the player
+    // actually solved them in, which is the order state.solved was built.
+    state.solved.forEach((ci) => {
       const cat = PUZZLE_DATA.categories[ci];
       const div = document.createElement("div");
       div.className = `solved-group ${cat.difficulty}`;
+      if (ci === state.justSolvedIndex) {
+        div.classList.add("entering");
+      }
       div.innerHTML = `<span class="cat-name">${cat.name}</span>${cat.words.join("、")}`;
       container.appendChild(div);
     });
+    state.justSolvedIndex = null; // consume the flag so it doesn't replay on later, unrelated renders
   }
 
   function renderGrid() {
@@ -144,7 +179,12 @@
 
   function renderControls() {
     const submitBtn = document.getElementById("submit-btn");
-    submitBtn.disabled = selectedTiles().length !== 4 || state.over;
+    if (state.over) {
+      submitBtn.style.display = "none";
+    } else {
+      submitBtn.style.display = "";
+      submitBtn.disabled = selectedTiles().length !== 4;
+    }
   }
 
   function showOverlay(won) {
