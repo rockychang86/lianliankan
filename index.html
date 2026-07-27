@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>词语连连看 — 2026-07-27</title>
+  <link rel="stylesheet" href="assets/game.css">
+</head>
+<body>
+  <div class="page">
+    <header class="site-header">
+      <h1>词语连连看</h1>
+      <p class="date">2026-07-27</p>
+    </header>
+    <p class="instructions">选择 4 个你认为相关的词语，然后点击「提交」。</p>
+    <div class="mistakes">剩余机会：<span id="mistake-count">4</span> 次 <span class="dots" id="mistake-dots"></span></div>
+    <div class="solved-groups" id="solved-groups"></div>
+    <div class="grid" id="grid"></div>
+    <div class="controls">
+      <button class="primary" id="submit-btn" disabled>提交</button>
+    </div>
+    <p id="flash-message" style="text-align:center; font-size:18px; color:#a15c00; transition:opacity 0.3s; opacity:0;"></p>
+    <div class="overlay hidden" id="overlay"></div>
+    <footer class="site-footer">
+      <a href="archive.html">往期回顾</a> &middot; <a href="index.html">今日题目</a>
+    </footer>
+  </div>
+  <script>
+    const PUZZLE_DATA = {"date": "2026-07-27", "categories": [{"name": "新晋世界遗产", "difficulty": "yellow", "words": ["景德镇", "北京中轴线", "龙山列岛", "诺曼底海滩"]}, {"name": "体坛热点", "difficulty": "green", "words": ["世界杯", "村BA", "匈牙利大奖赛", "羽毛球公开赛"]}, {"name": "野生动物新闻", "difficulty": "blue", "words": ["大熊猫", "麋鹿", "候鸟", "抹香鲸"]}, {"name": "科技新突破", "difficulty": "purple", "words": ["菲尔兹奖", "监测卫星", "火车降噪", "智能调度"]}]};
+  </script>
+  <script src="assets/game.js"></script>
+</body>
+</html>
