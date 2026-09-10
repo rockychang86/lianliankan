@@ -1,0 +1,41 @@
+{
+  "date": "2026-09-10",
+  "categories": [
+    {
+      "name": "热门运动项目",
+      "difficulty": "yellow",
+      "words": ["篮球", "田径", "网球", "乒乓球"],
+      "source": {
+        "title": "中国女篮险胜波多黎各晋级世界杯八强-新华网",
+        "url": "https://www.news.cn/sports/20260910/c984c5f25150414e989f107c2c3d52b7/c.html"
+      }
+    },
+    {
+      "name": "大自然的风光与生灵",
+      "difficulty": "green",
+      "words": ["泸沽湖", "壶口瀑布", "榕树", "大熊猫"],
+      "source": {
+        "title": "扶正了！福建南靖600多年树龄的榕树“抢救记”-人民网",
+        "url": "http://fj.people.com.cn/n2/2026/0909/c181466-41691641.html"
+      }
+    },
+    {
+      "name": "前沿科技与科学发现",
+      "difficulty": "blue",
+      "words": ["石墨烯", "丹尼索瓦人", "中国天眼", "机器人"],
+      "source": {
+        "title": "研究人员首次在中国西南地区发现丹尼索瓦人化石-新华网",
+        "url": "https://www.news.cn/tech/20260909/a1888ff406994806b39893b65ee79f75/c.html"
+      }
+    },
+    {
+      "name": "传统文化与古迹古镇",
+      "difficulty": "purple",
+      "words": ["泥塑", "风筝", "兵马俑", "古北水镇"],
+      "source": {
+        "title": "映像非遗丨淮北泥塑：指尖捻乡土，古韵焕新生-人民网",
+        "url": "http://ah.people.com.cn/n2/2026/0910/c227131-41692244.html"
+      }
+    }
+  ]
+}
