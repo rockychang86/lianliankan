@@ -1,0 +1,41 @@
+{
+  "date": "2026-09-11",
+  "categories": [
+    {
+      "name": "球类运动",
+      "difficulty": "yellow",
+      "words": ["篮球", "网球", "足球", "斯诺克"],
+      "source": {
+        "title": "中国女篮大比分不敌法国队 无缘世界杯四强-新华网",
+        "url": "https://www.news.cn/sports/20260910/b374865304974e8c94474f22bf34abc4/c.html"
+      }
+    },
+    {
+      "name": "传统文化艺术",
+      "difficulty": "green",
+      "words": ["杂技", "象棋", "书画", "园林"],
+      "source": {
+        "title": "“典则：唐宋书画展”在故宫博物院文华殿展出-人民网",
+        "url": "http://ent.people.com.cn/n1/2026/0831/c1012-40789672.html"
+      }
+    },
+    {
+      "name": "秋收时节",
+      "difficulty": "blue",
+      "words": ["白露", "稻田", "菱角", "辣椒"],
+      "source": {
+        "title": "文化中国行｜“声动”二十四节气·白露-新华网",
+        "url": "https://www.news.cn/ci/20260907/54cb2a03c9c745e0a5addc05c6351d4a/c.html"
+      }
+    },
+    {
+      "name": "前沿科技",
+      "difficulty": "purple",
+      "words": ["飞行汽车", "月壤建筑", "机器人", "大模型"],
+      "source": {
+        "title": "去月球上盖房子，月壤能撑得住吗？-新华网",
+        "url": "http://www.news.cn/sci-tech/20260910/e10287ded6224e25943362c7bd0fd22d/c.html"
+      }
+    }
+  ]
+}
