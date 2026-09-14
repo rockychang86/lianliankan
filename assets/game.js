@@ -12,6 +12,38 @@
     over: false,
   };
 
+  // --- Analytics beacon (self-owned, privacy-respecting) ---
+  // Fire-and-forget POST to a Google Form we own. No IP, no login, no personal
+  // data: anonId is a random per-browser token so we can count distinct players
+  // without identifying anyone. Data collects in the "Lianliankan Analytics"
+  // form/sheet under rocky.chang.86 — no third party.
+  const BEACON_URL = "https://docs.google.com/forms/d/e/1FAIpQLSe7vZD9eAJnHo2eAIWBsY7w98SOX4v0152-btil8MkjeqKfgw/formResponse";
+  const BEACON_FIELDS = { event: "entry.119600125", puzzle: "entry.1432678639", anonId: "entry.1303818159", mistakes: "entry.1681636313", referrer: "entry.977622655" };
+  function anonId() {
+    try {
+      const k = "llk_anon_id";
+      let v = localStorage.getItem(k);
+      if (!v) { v = Date.now().toString(36) + Math.random().toString(36).slice(2, 10); localStorage.setItem(k, v); }
+      return v;
+    } catch (e) { return "nostorage"; }
+  }
+  let beaconSent = {};
+  function beacon(event, extra) {
+    try {
+      if (beaconSent[event]) return; // once per event per page load
+      beaconSent[event] = true;
+      const puzzle = (window.PUZZLE_DATA && PUZZLE_DATA.date) || "";
+      const fd = new FormData();
+      fd.append(BEACON_FIELDS.event, event);
+      fd.append(BEACON_FIELDS.puzzle, puzzle);
+      fd.append(BEACON_FIELDS.anonId, anonId());
+      fd.append(BEACON_FIELDS.mistakes, (extra && extra.mistakes != null) ? String(extra.mistakes) : "");
+      fd.append(BEACON_FIELDS.referrer, document.referrer || "");
+      if (navigator.sendBeacon) { navigator.sendBeacon(BEACON_URL, fd); }
+      else { fetch(BEACON_URL, { method: "POST", mode: "no-cors", body: fd, keepalive: true }); }
+    } catch (e) { /* analytics must never break the game */ }
+  }
+
   function shuffle(arr) {
     const a = arr.slice();
     for (let i = a.length - 1; i > 0; i--) {
@@ -22,6 +54,7 @@
   }
 
   function init() {
+    beacon("open");
     const flat = [];
     PUZZLE_DATA.categories.forEach((cat, ci) => {
       cat.words.forEach((word) => flat.push({ word, categoryIndex: ci, selected: false }));
@@ -59,6 +92,7 @@
         if (won) state.over = true;
         render();
         if (won) {
+          beacon("win", { mistakes: state.mistakes });
           triggerConfetti();
           showOverlay(true);
         }
@@ -77,6 +111,7 @@
 
     if (state.mistakes >= MAX_MISTAKES) {
       state.over = true;
+      beacon("lose", { mistakes: state.mistakes });
       setTimeout(() => { render(); showOverlay(false); }, 450);
     } else {
       setTimeout(render, 450);
