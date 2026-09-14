@@ -1,0 +1,37 @@
+{
+  "date": "2026-09-14",
+  "categories": [
+    {
+      "name": "体育赛事",
+      "difficulty": "yellow",
+      "words": ["网球", "篮球", "赛车", "门球"],
+      "source": {
+        "title": "亚运会：中国男篮44分大胜菲律宾 三连胜晋级八强-央视网",
+        "url": "https://sports.cctv.com/2026/09/14/ARTIA4EzJeiQCm6FxQYwUG6u260914.shtml"
+      }
+    },
+    {
+      "name": "秋日丰收",
+      "difficulty": "green",
+      "words": ["葡萄", "秋粮", "咖啡", "辣椒"],
+      "source": {
+        "title": "行进中国丨好“风”凭借力 咖香越山海-人民网",
+        "url": "http://yn.people.com.cn/n2/2026/0911/c378439-41693098.html"
+      }
+    },
+    {
+      "name": "自然万物",
+      "difficulty": "blue",
+      "words": ["熊猫", "黑鹳", "白鹭", "三角梅"]
+    },
+    {
+      "name": "传统工艺",
+      "difficulty": "purple",
+      "words": ["黄梅戏", "根雕", "瓷器", "鳌鱼灯"],
+      "source": {
+        "title": "安徽黄梅戏经典荟萃亮相台北-新华网",
+        "url": "https://www.news.cn/tw/20260913/adb151fb2db24f4a95f6ee3289c37f69/c.html"
+      }
+    }
+  ]
+}
