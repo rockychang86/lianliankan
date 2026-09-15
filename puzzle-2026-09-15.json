@@ -1,0 +1,41 @@
+{
+  "date": "2026-09-15",
+  "categories": [
+    {
+      "name": "亚运赛场",
+      "difficulty": "yellow",
+      "words": ["乒乓球", "足球", "篮球", "体操"],
+      "source": {
+        "title": "惊喜之后，中国足球期待新突破——爱知·名古屋亚运会足球项目前瞻-新华网",
+        "url": "https://www.news.cn/sports/20260912/8be75da4a000406bba22f8e4bb1914e3/c.html"
+      }
+    },
+    {
+      "name": "秋日物产",
+      "difficulty": "green",
+      "words": ["秋粮", "猴头菇", "灵芝", "月饼"],
+      "source": {
+        "title": "海林猴头菇迎来采收季-人民网",
+        "url": "http://hlj.people.com.cn/n2/2026/0604/c220005-41601377.html"
+      }
+    },
+    {
+      "name": "科技工程",
+      "difficulty": "blue",
+      "words": ["火箭", "机器人", "盾构机", "大桥"],
+      "source": {
+        "title": "朱雀二号改进型遥五运载火箭发射成功 大重量载荷发射能力有提升-新华网",
+        "url": "https://www.news.cn/tech/20260514/1f91d69df1da4a37b79efc7f59826930/c.html"
+      }
+    },
+    {
+      "name": "传统文化",
+      "difficulty": "purple",
+      "words": ["古籍修复", "汝瓷", "螳螂拳", "杂技"],
+      "source": {
+        "title": "培养修复文物的“能工巧匠”-人民网",
+        "url": "http://edu.people.com.cn/n1/2026/0707/c1006-40754730.html"
+      }
+    }
+  ]
+}
