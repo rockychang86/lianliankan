@@ -1,0 +1,41 @@
+{
+  "date": "2026-09-16",
+  "categories": [
+    {
+      "name": "亚运赛场",
+      "difficulty": "yellow",
+      "words": ["篮球", "排球", "田径", "乒乓球"],
+      "source": {
+        "title": "亚运会｜男篮综合：大胜菲律宾44分 中国队小组头名进8强-新华网",
+        "url": "https://www.news.cn/sports/20260914/900d8fdd5196401186434076b2b80f13/c.html"
+      }
+    },
+    {
+      "name": "大自然",
+      "difficulty": "green",
+      "words": ["大熊猫", "台风", "湿地", "花卉"],
+      "source": {
+        "title": "今年台风为何偏多？-人民网",
+        "url": "http://kpzg.people.com.cn/n1/2026/0824/c404214-40784730.html"
+      }
+    },
+    {
+      "name": "前沿科技",
+      "difficulty": "blue",
+      "words": ["固态电池", "无人机", "北斗", "火箭"],
+      "source": {
+        "title": "引力一号火箭首次远海发射任务成功（一箭九星）-新华网",
+        "url": "https://www.news.cn/20260722/96f13aad9af24bc29c3f4b389226144a/c.html"
+      }
+    },
+    {
+      "name": "文化遗产",
+      "difficulty": "purple",
+      "words": ["书院", "文物", "非遗", "考古"],
+      "source": {
+        "title": "书院甲天下 文脉润人心-央视网",
+        "url": "https://book.cctv.com/2026/04/07/ARTI3nYDa4BtQzjNdJJ1kZjc260407.shtml"
+      }
+    }
+  ]
+}
