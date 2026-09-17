@@ -1,0 +1,41 @@
+{
+  "date": "2026-09-17",
+  "categories": [
+    {
+      "name": "农产品丰收",
+      "difficulty": "yellow",
+      "words": ["秋粮", "莲藕", "甘蓝", "榴莲"],
+      "source": {
+        "title": "“榴莲自由”更近了-新华网",
+        "url": "https://www.news.cn/20260507/1b81cb6077664282a00d67974cfd2688/c.html"
+      }
+    },
+    {
+      "name": "祖国自然风光",
+      "difficulty": "green",
+      "words": ["金丝猴", "洱海", "沙漠", "秋景"],
+      "source": {
+        "title": "美丽中国行丨路遇金色精灵（秦岭金丝猴）-新华网",
+        "url": "https://www.news.cn/photo/20260606/6d09e284f125421cbd6df5fd32b96dd6/c.html"
+      }
+    },
+    {
+      "name": "前沿科技",
+      "difficulty": "blue",
+      "words": ["卫星", "天眼", "核电", "超音速"],
+      "source": {
+        "title": "中国天眼发现迄今最轻双中子星系统-新华网",
+        "url": "https://www.news.cn/sci-tech/20260917/5e632d0725b24b17b0ac0dd700b71598/c.html"
+      }
+    },
+    {
+      "name": "文化生活",
+      "difficulty": "purple",
+      "words": ["书市", "博物馆", "渔灯", "秧歌"],
+      "source": {
+        "title": "2026“我与地坛”北京书市开幕-新华网",
+        "url": "https://www.news.cn/photo/20260917/5961a258451b4cfe8d2c045c02821b6a/c.html"
+      }
+    }
+  ]
+}
