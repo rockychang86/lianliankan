@@ -1,0 +1,41 @@
+{
+  "date": "2026-09-21",
+  "categories": [
+    {
+      "name": "交通大动脉",
+      "difficulty": "yellow",
+      "words": ["高铁", "隧道", "运河", "大桥"],
+      "source": {
+        "title": "一河通江海 平陆运河激活西部“新动脉”-新华网",
+        "url": "https://www.news.cn/20260917/f57a310575914f3b8d81d1bcc8fbd5eb/c.html"
+      }
+    },
+    {
+      "name": "丰收的田野",
+      "difficulty": "green",
+      "words": ["稻谷", "玉米", "大豆", "花生"],
+      "source": {
+        "title": "粮食大省秋收忙｜湖南：让增产“秘诀”走向更多田间地头-新华网",
+        "url": "https://www.news.cn/politics/20260920/34439077f2d6454f883aff666c057d66/c.html"
+      }
+    },
+    {
+      "name": "科考现场",
+      "difficulty": "blue",
+      "words": ["冰川", "冻土", "湿地", "化石"],
+      "source": {
+        "title": "祁连山将建成系列冰川冻土观测站 用科技手段守护河西走廊“生命线”",
+        "url": "https://m.gmw.cn/2026-09/21/content_1304566289.htm"
+      }
+    },
+    {
+      "name": "非遗里的中国",
+      "difficulty": "purple",
+      "words": ["黎锦", "妈祖", "皮影", "刺绣"],
+      "source": {
+        "title": "织就黎锦传承的数字新路-人民网",
+        "url": "http://ent.people.com.cn/n1/2026/0921/c1012-40802406.html"
+      }
+    }
+  ]
+}
