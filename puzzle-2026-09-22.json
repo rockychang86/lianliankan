@@ -1,0 +1,41 @@
+{
+  "date": "2026-09-22",
+  "categories": [
+    {
+      "name": "中秋佳节",
+      "difficulty": "yellow",
+      "words": ["月饼", "明月", "团圆", "赏月"],
+      "source": {
+        "title": "游园、品茶、选月饼 各地中秋消费市场“新”意满满-人民网",
+        "url": "http://health.people.cn/n1/2026/0920/c14739-40801860.html"
+      }
+    },
+    {
+      "name": "亚运赛场夺金",
+      "difficulty": "green",
+      "words": ["武术", "自行车", "射击", "足球"],
+      "source": {
+        "title": "亚运会｜射击——男子10米气步枪团体赛：中国队破世界纪录夺金-新华网",
+        "url": "https://www.news.cn/sports/20260921/b5ee38265cef4a03a8415bc9dd1c1f2e/c.html"
+      }
+    },
+    {
+      "name": "江河湖海",
+      "difficulty": "blue",
+      "words": ["长江", "黄河", "鄱阳湖", "北冰洋"],
+      "source": {
+        "title": "新华鲜报丨1426头！长江江豚新数据见证长江十年禁渔新成效-新华网",
+        "url": "https://www.news.cn/tech/20260130/8f088d5b6aac4c9da605becefa0fb620/c.html"
+      }
+    },
+    {
+      "name": "智能新科技",
+      "difficulty": "purple",
+      "words": ["机器人", "北斗", "电子鼻", "人工智能"],
+      "source": {
+        "title": "清华“电子鼻”研究，有望诊断癌症、流感等疾病-清华大学",
+        "url": "https://www.tsinghua.edu.cn/info/1182/109985.htm"
+      }
+    }
+  ]
+}
