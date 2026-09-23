@@ -1,0 +1,37 @@
+{
+  "date": "2026-09-23",
+  "categories": [
+    {
+      "name": "运动项目",
+      "difficulty": "yellow",
+      "words": ["体操", "乒乓球", "羽毛球", "田径"],
+      "source": {
+        "title": "亚运会｜体操——张博恒夺得男子个人全能冠军-新华网",
+        "url": "https://www.news.cn/sports/20260921/7d62944604fd430195fa26c22fed3a6b/c.html"
+      }
+    },
+    {
+      "name": "田间地头",
+      "difficulty": "green",
+      "words": ["稻田", "果园", "麦田", "菜园"],
+      "source": {
+        "title": "节令之美丨秋分：山河对半秋，桂稻各生香-新华网",
+        "url": "https://www.news.cn/politics/20260922/c8b5b16baadb4c6698f75bbb48b54c38/c.html"
+      }
+    },
+    {
+      "name": "珍稀动物",
+      "difficulty": "blue",
+      "words": ["大熊猫", "金丝猴", "丹顶鹤", "藏羚羊"]
+    },
+    {
+      "name": "星空探索",
+      "difficulty": "purple",
+      "words": ["天眼", "银河", "黑洞", "火星"],
+      "source": {
+        "title": "新华鲜报丨十载望星河 中国天眼重绘宇宙演化图景-新华网",
+        "url": "https://www.news.cn/politics/20260901/5b121c93afb34fa0a24f5ee1e5d4bb2b/c.html"
+      }
+    }
+  ]
+}
