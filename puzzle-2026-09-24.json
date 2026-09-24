@@ -1,0 +1,41 @@
+{
+  "date": "2026-09-24",
+  "categories": [
+    {
+      "name": "亚运赛场",
+      "difficulty": "yellow",
+      "words": ["射箭", "跳水", "举重", "击剑"],
+      "source": {
+        "title": "亚运会｜全天综合：女排加冕“十冠王” 游泳射击“刷数据”-新华网",
+        "url": "https://www.news.cn/20260923/c7ff6a28fba44de9a32fc63f07a7a472/c.html"
+      }
+    },
+    {
+      "name": "秋日时鲜",
+      "difficulty": "green",
+      "words": ["螃蟹", "葡萄", "柿子", "石榴"],
+      "source": {
+        "title": "这个秋天，你吃螃蟹了吗？-新华网",
+        "url": "https://www.news.cn/politics/20260922/e7e6f77127894e6c8c3165a958bd835f/c.html"
+      }
+    },
+    {
+      "name": "传统技艺",
+      "difficulty": "blue",
+      "words": ["书法", "剪纸", "陶艺", "年画"],
+      "source": {
+        "title": "在AI“舞台”，遇见更“潮”非遗-人民网",
+        "url": "http://finance.people.com.cn/n1/2026/0918/c1004-40800873.html"
+      }
+    },
+    {
+      "name": "清洁能源",
+      "difficulty": "purple",
+      "words": ["风电", "光伏", "水电", "核电"],
+      "source": {
+        "title": "海南东方CZ8海上风电项目完成海上风机安装-中新网",
+        "url": "https://www.chinanews.com.cn/gn/2026/09-22/10701358.shtml"
+      }
+    }
+  ]
+}
