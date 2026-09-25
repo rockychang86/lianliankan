@@ -1,0 +1,41 @@
+{
+  "date": "2026-09-25",
+  "categories": [
+    {
+      "name": "节日装点",
+      "difficulty": "yellow",
+      "words": ["花篮", "灯笼", "焰火", "彩旗"],
+      "source": {
+        "title": "宽视角丨天安门广场披“盛装”，国庆花篮又绽放！-新华网",
+        "url": "https://www.news.cn/politics/20260923/cd55d786430f4c8dba36c70b28c7d982/c.html"
+      }
+    },
+    {
+      "name": "五谷",
+      "difficulty": "green",
+      "words": ["小麦", "水稻", "高粱", "小米"],
+      "source": {
+        "title": "聚焦全谷物摄入 专家为推动膳食转型支招-新华网",
+        "url": "https://www.news.cn/tech/20260922/4dda3a3b6dc3412bb26a1b149a957caf/c.html"
+      }
+    },
+    {
+      "name": "秋日胜景",
+      "difficulty": "blue",
+      "words": ["大潮", "红叶", "云海", "瀑布"],
+      "source": {
+        "title": "钱塘江大潮将至 这份观潮攻略请收好！-人民网",
+        "url": "http://society.people.com.cn/n1/2026/0924/c1008-40805124.html"
+      }
+    },
+    {
+      "name": "航天探索",
+      "difficulty": "purple",
+      "words": ["火箭", "登月", "空间站", "探测器"],
+      "source": {
+        "title": "载人探月重要突破！“长十”“梦舟”携手创下多项首次-新华网",
+        "url": "https://www.news.cn/tech/20260212/953c9239a6844c1990c5514942bc0919/c.html"
+      }
+    }
+  ]
+}
