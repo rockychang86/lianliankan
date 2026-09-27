@@ -1,0 +1,33 @@
+{
+  "date": "2026-09-27",
+  "categories": [
+    {
+      "name": "中秋佳节",
+      "difficulty": "yellow",
+      "words": ["月饼", "赏月", "团圆", "桂花"]
+    },
+    {
+      "name": "金秋丰收",
+      "difficulty": "green",
+      "words": ["梯田", "稻穗", "金黄", "丰收"],
+      "source": {
+        "title": "图片故事丨千年梯田 生生不息",
+        "url": "https://www.news.cn/photo/20260927/5b5943d7850143829c9306fe177a2431/c.html"
+      }
+    },
+    {
+      "name": "传统文化遗产",
+      "difficulty": "blue",
+      "words": ["书画", "剪纸", "园林", "古桥"]
+    },
+    {
+      "name": "月亮的雅称",
+      "difficulty": "purple",
+      "words": ["婵娟", "玉盘", "明月", "玉兔"],
+      "source": {
+        "title": "星空相册｜十五的月亮十七圆",
+        "url": "https://www.news.cn/photo/20260927/6ba0a8d3a5a1421e824ef71b46a40b5f/c.html"
+      }
+    }
+  ]
+}
