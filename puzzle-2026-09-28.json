@@ -1,0 +1,33 @@
+{
+  "date": "2026-09-28",
+  "categories": [
+    {
+      "name": "亚运会项目",
+      "difficulty": "yellow",
+      "words": ["跳水", "蹦床", "羽毛球", "射击"],
+      "source": {
+        "title": "林珊获女子1米跳板金牌（新华社）",
+        "url": "https://www.news.cn/sports/20260928/4c473154e14d4c4e8e44c9fa63f62b5f/c.html"
+      }
+    },
+    {
+      "name": "秋天的时令美食",
+      "difficulty": "green",
+      "words": ["大闸蟹", "柿子", "板栗", "核桃"],
+      "source": {
+        "title": "江苏苏州：阳澄湖大闸蟹开捕（新华社）",
+        "url": "https://www.news.cn/photo/20260928/d133c968f608493080ff348c184fbbad/c.html"
+      }
+    },
+    {
+      "name": "中国珍稀动物",
+      "difficulty": "blue",
+      "words": ["大熊猫", "金丝猴", "丹顶鹤", "华南虎"]
+    },
+    {
+      "name": "秋天开的花",
+      "difficulty": "purple",
+      "words": ["菊花", "桂花", "木芙蓉", "三角梅"]
+    }
+  ]
+}
