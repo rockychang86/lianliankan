@@ -1,0 +1,33 @@
+{
+  "date": "2026-09-29",
+  "categories": [
+    {
+      "name": "交通工具",
+      "difficulty": "yellow",
+      "words": ["高铁", "公交", "轮船", "飞机"],
+      "source": {
+        "title": "四条高铁同日开通“八纵八横”再添动力（央视新闻）",
+        "url": "https://tv.cctv.com/2026/09/28/VIDEXON9PB8Q7go5a2FJUGix260928.shtml"
+      }
+    },
+    {
+      "name": "球类运动",
+      "difficulty": "green",
+      "words": ["足球", "篮球", "排球", "乒乓球"]
+    },
+    {
+      "name": "人体器官",
+      "difficulty": "blue",
+      "words": ["心脏", "牙齿", "眼睛", "肝脏"]
+    },
+    {
+      "name": "中国古代四大发明",
+      "difficulty": "purple",
+      "words": ["造纸", "印刷", "指南针", "火药"],
+      "source": {
+        "title": "傣家非遗造纸变身增收新产业（新华社）",
+        "url": "https://www.news.cn/politics/20260929/a575835d58e741898d2bc9d808f6c905/c.html"
+      }
+    }
+  ]
+}
