@@ -1,0 +1,37 @@
+{
+  "date": "2026-09-30",
+  "categories": [
+    {
+      "name": "亚运会项目",
+      "difficulty": "yellow",
+      "words": ["跳水", "乒乓球", "举重", "羽毛球"],
+      "source": {
+        "title": "练俊杰获男子10米台金牌 跳水“梦之队”亚运百金（新华社）",
+        "url": "https://www.news.cn/sports/20260930/ff20b6f36f31467ba9b7c73b45d42ac0/c.html"
+      }
+    },
+    {
+      "name": "航天器",
+      "difficulty": "green",
+      "words": ["卫星", "火箭", "飞船", "空间站"],
+      "source": {
+        "title": "中欧联合研制的“微笑”卫星转入科学运行阶段（新华社）",
+        "url": "https://www.news.cn/politics/20260930/b1309e6227994b37861f0dd3dd478eb2/c.html"
+      }
+    },
+    {
+      "name": "中国古迹",
+      "difficulty": "blue",
+      "words": ["兵马俑", "长城", "故宫", "莫高窟"],
+      "source": {
+        "title": "秦兵马俑二号坑焕新迎客（新华社）",
+        "url": "https://www.news.cn/photo/20260930/1ef4763c57374354a34e6488ce379240/c.html"
+      }
+    },
+    {
+      "name": "候鸟",
+      "difficulty": "purple",
+      "words": ["大雁", "天鹅", "燕子", "白鹭"]
+    }
+  ]
+}
