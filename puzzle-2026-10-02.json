@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-02",
+  "categories": [
+    {
+      "name": "球类运动",
+      "difficulty": "yellow",
+      "words": ["网球", "排球", "棒球", "篮球"],
+      "source": {
+        "title": "亚运会｜排球——男子四分之一决赛：中国队晋级半决赛（新华社）",
+        "url": "https://www.news.cn/sports/20261001/ded4da0824f7472f84a09ab4a740692f/c.html"
+      }
+    },
+    {
+      "name": "秋天的天气",
+      "difficulty": "green",
+      "words": ["冷空气", "降温", "秋雨", "大风"]
+    },
+    {
+      "name": "天空中的天体",
+      "difficulty": "blue",
+      "words": ["太阳", "月亮", "金星", "彗星"],
+      "source": {
+        "title": "金星即将开启“身份切换”期 长庚星变启明星（人民网）",
+        "url": "http://finance.people.com.cn/n1/2026/1002/c1004-40808701.html"
+      }
+    },
+    {
+      "name": "中国古代四大发明",
+      "difficulty": "purple",
+      "words": ["造纸术", "印刷术", "火药", "指南针"]
+    }
+  ]
+}
