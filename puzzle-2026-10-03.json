@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-03",
+  "categories": [
+    {
+      "name": "中国传统节日",
+      "difficulty": "yellow",
+      "words": ["春节", "端午", "中秋", "清明"]
+    },
+    {
+      "name": "交通工具",
+      "difficulty": "green",
+      "words": ["高铁", "飞机", "轮船", "汽车"],
+      "source": {
+        "title": "四条高铁线路“同步上新”，读懂轨道上的新图景（新华社）",
+        "url": "https://www.news.cn/video/20260929/f7eea450107d4ff5b6a1a5f811b2f3d1/c.html"
+      }
+    },
+    {
+      "name": "太阳系的行星",
+      "difficulty": "blue",
+      "words": ["水星", "火星", "土星", "木星"],
+      "source": {
+        "title": "4日土星冲日，观测“指环王”迎来绝佳窗口期（新华社）",
+        "url": "https://www.news.cn/tech/20261003/3f63f8771612456da32f089e9d76212e/c.html"
+      }
+    },
+    {
+      "name": "中国四大名著",
+      "difficulty": "purple",
+      "words": ["红楼梦", "西游记", "水浒传", "三国演义"]
+    }
+  ]
+}
