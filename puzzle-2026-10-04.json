@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-04",
+  "categories": [
+    {
+      "name": "水果",
+      "difficulty": "yellow",
+      "words": ["苹果", "葡萄", "香蕉", "西瓜"]
+    },
+    {
+      "name": "航天与太空",
+      "difficulty": "green",
+      "words": ["火箭", "卫星", "飞船", "空间站"],
+      "source": {
+        "title": "神二十三乘组太空过双节 科学实验、健康管理等工作正推进（央视网）",
+        "url": "https://news.cctv.com/2026/10/04/ARTIvNou6KVtOcPazuC9M9Jo261004.shtml"
+      }
+    },
+    {
+      "name": "中国民族乐器",
+      "difficulty": "blue",
+      "words": ["芦笙", "二胡", "古筝", "琵琶"]
+    },
+    {
+      "name": "秋天的节气",
+      "difficulty": "purple",
+      "words": ["立秋", "白露", "秋分", "霜降"]
+    }
+  ]
+}
