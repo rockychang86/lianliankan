@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-05",
+  "categories": [
+    {
+      "name": "蔬菜",
+      "difficulty": "yellow",
+      "words": ["白菜", "萝卜", "茄子", "黄瓜"]
+    },
+    {
+      "name": "动物",
+      "difficulty": "green",
+      "words": ["熊猫", "老虎", "猴子", "大象"],
+      "source": {
+        "title": "熊猫宝宝之间有特别的打招呼方式（央视网·熊猫频道）",
+        "url": "https://live.ipanda.com/2026/10/05/VIDEsjBTo9xMWwOJTGml5xFI261005.shtml"
+      }
+    },
+    {
+      "name": "中国的省区",
+      "difficulty": "blue",
+      "words": ["黑龙江", "贵州", "新疆", "江苏"]
+    },
+    {
+      "name": "诺贝尔奖项",
+      "difficulty": "purple",
+      "words": ["物理学", "化学", "文学", "和平"],
+      "source": {
+        "title": "3名科学家获2026年诺贝尔生理学或医学奖（新华社）",
+        "url": "https://www.news.cn/20261005/91e156aa9c704e629d9aaf675e7dbb24/c.html"
+      }
+    }
+  ]
+}
