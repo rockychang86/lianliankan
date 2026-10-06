@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-06",
+  "categories": [
+    {
+      "name": "茶",
+      "difficulty": "yellow",
+      "words": ["绿茶", "红茶", "花茶", "普洱"]
+    },
+    {
+      "name": "鸟",
+      "difficulty": "green",
+      "words": ["麻雀", "喜鹊", "燕子", "老鹰"]
+    },
+    {
+      "name": "中国名湖",
+      "difficulty": "blue",
+      "words": ["西湖", "太湖", "洞庭湖", "千岛湖"]
+    },
+    {
+      "name": "文房四宝",
+      "difficulty": "purple",
+      "words": ["笔", "墨", "纸", "砚"]
+    }
+  ]
+}
