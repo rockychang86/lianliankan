@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-08",
+  "categories": [
+    {
+      "name": "酒",
+      "difficulty": "yellow",
+      "words": ["啤酒", "白酒", "黄酒", "葡萄酒"]
+    },
+    {
+      "name": "计时工具",
+      "difficulty": "green",
+      "words": ["钟", "表", "日晷", "沙漏"],
+      "source": {
+        "title": "向更精准计时迈进 中国科学家成功研制核光钟（新华社）",
+        "url": "https://www.news.cn/tech/20261008/b0010e0229524f6aad6818132660605f/c.html"
+      }
+    },
+    {
+      "name": "恐龙",
+      "difficulty": "blue",
+      "words": ["霸王龙", "三角龙", "剑龙", "梁龙"]
+    },
+    {
+      "name": "中国神话人物",
+      "difficulty": "purple",
+      "words": ["女娲", "后羿", "嫦娥", "盘古"]
+    }
+  ]
+}
