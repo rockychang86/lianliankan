@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-10",
+  "categories": [
+    {
+      "name": "调味品",
+      "difficulty": "yellow",
+      "words": ["酱油", "醋", "盐", "花椒"]
+    },
+    {
+      "name": "家用电器",
+      "difficulty": "green",
+      "words": ["冰箱", "空调", "洗衣机", "电视"]
+    },
+    {
+      "name": "花",
+      "difficulty": "blue",
+      "words": ["牡丹", "荷花", "梅花", "菊花"]
+    },
+    {
+      "name": "古代诗人",
+      "difficulty": "purple",
+      "words": ["李白", "杜甫", "王维", "苏轼"]
+    }
+  ]
+}
