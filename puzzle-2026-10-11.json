@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-11",
+  "categories": [
+    {
+      "name": "纺织原料",
+      "difficulty": "yellow",
+      "words": ["棉花", "丝绸", "羊毛", "皮革"],
+      "source": {
+        "title": "新疆尉犁县116万亩棉花进入采收期（新华社）",
+        "url": "https://www.news.cn/local/20261011/b7b967e7e3514309b4a79d79f49cc7c4/c.html"
+      }
+    },
+    {
+      "name": "十二生肖",
+      "difficulty": "green",
+      "words": ["鼠", "牛", "龙", "羊"]
+    },
+    {
+      "name": "天空景象",
+      "difficulty": "blue",
+      "words": ["火烧云", "极光", "彩虹", "晚霞"]
+    },
+    {
+      "name": "古代四大美女",
+      "difficulty": "purple",
+      "words": ["西施", "貂蝉", "王昭君", "杨玉环"]
+    }
+  ]
+}
