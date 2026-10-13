@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>词语连连看 — 2026-10-13</title>
+  <link rel="stylesheet" href="../assets/game.css">
+</head>
+<body>
+  <div class="page">
+    <header class="site-header">
+      <h1>词语连连看</h1>
+      <p class="date">2026-10-13</p>
+    </header>
+    <p class="instructions">选择 4 个你认为相关的词语，然后点击「提交」。</p>
+    <div class="mistakes-wrap">
+      <div class="mistakes">剩余机会：<span id="mistake-count">4</span> 次 <span class="dots" id="mistake-dots"></span></div>
+      <div id="flash-message" class="flash-overlay"></div>
+    </div>
+    <div class="solved-groups" id="solved-groups"></div>
+    <div class="grid" id="grid"></div>
+    <div class="controls">
+      <button class="primary" id="submit-btn" disabled>提交</button>
+    </div>
+    <div class="overlay hidden" id="overlay"></div>
+    <footer class="site-footer">
+      <a href="../archive.html">往期回顾</a> &middot; <a href="../index.html">今日题目</a>
+    </footer>
+  </div>
+  <script>
+    const PUZZLE_DATA = {"date": "2026-10-13", "categories": [{"name": "文具", "difficulty": "yellow", "words": ["铅笔", "橡皮", "尺子", "圆规"]}, {"name": "家具", "difficulty": "green", "words": ["桌子", "椅子", "沙发", "衣柜"]}, {"name": "海洋动物", "difficulty": "blue", "words": ["鲸鱼", "海豚", "海龟", "海参"]}, {"name": "中药材", "difficulty": "purple", "words": ["人参", "枸杞", "当归", "甘草"]}]};
+  </script>
+  <script src="../assets/game.js"></script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-13",
+  "categories": [
+    {
+      "name": "文具",
+      "difficulty": "yellow",
+      "words": ["铅笔", "橡皮", "尺子", "圆规"]
+    },
+    {
+      "name": "家具",
+      "difficulty": "green",
+      "words": ["桌子", "椅子", "沙发", "衣柜"]
+    },
+    {
+      "name": "海洋动物",
+      "difficulty": "blue",
+      "words": ["鲸鱼", "海豚", "海龟", "海参"]
+    },
+    {
+      "name": "中药材",
+      "difficulty": "purple",
+      "words": ["人参", "枸杞", "当归", "甘草"]
+    }
+  ]
+}
