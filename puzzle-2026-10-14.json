@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-14",
+  "categories": [
+    {
+      "name": "亲属称谓",
+      "difficulty": "yellow",
+      "words": ["爸爸", "妈妈", "哥哥", "表妹"]
+    },
+    {
+      "name": "厨房用具",
+      "difficulty": "green",
+      "words": ["锅", "碗", "勺子", "菜刀"]
+    },
+    {
+      "name": "配饰",
+      "difficulty": "blue",
+      "words": ["手表", "项链", "戒指", "手镯"]
+    },
+    {
+      "name": "中国名桥",
+      "difficulty": "purple",
+      "words": ["赵州桥", "卢沟桥", "港珠澳大桥", "南京长江大桥"]
+    }
+  ]
+}
