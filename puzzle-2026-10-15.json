@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-15",
+  "categories": [
+    {
+      "name": "球类运动",
+      "difficulty": "yellow",
+      "words": ["网球", "足球", "篮球", "排球"]
+    },
+    {
+      "name": "秋日自然景观",
+      "difficulty": "green",
+      "words": ["红叶", "极光", "银杏", "芦苇"]
+    },
+    {
+      "name": "中国传统文化",
+      "difficulty": "blue",
+      "words": ["汉服", "太极", "书法", "茶道"]
+    },
+    {
+      "name": "前沿科技",
+      "difficulty": "purple",
+      "words": ["量子存储", "风力发电", "无人邮车", "人工智能"]
+    }
+  ]
+}
