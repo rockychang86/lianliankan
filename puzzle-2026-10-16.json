@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-16",
+  "categories": [
+    {
+      "name": "鸟",
+      "difficulty": "yellow",
+      "words": ["大雁", "天鹅", "喜鹊", "麻雀"]
+    },
+    {
+      "name": "发电方式",
+      "difficulty": "green",
+      "words": ["风电", "光伏", "水电", "核电"]
+    },
+    {
+      "name": "传统技艺",
+      "difficulty": "blue",
+      "words": ["皮影戏", "京剧", "青瓷", "刺绣"]
+    },
+    {
+      "name": "秋天的景色",
+      "difficulty": "purple",
+      "words": ["红叶", "梯田", "芦苇", "银杏"]
+    }
+  ]
+}
