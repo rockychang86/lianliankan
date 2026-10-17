@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-17",
+  "categories": [
+    {
+      "name": "球类运动",
+      "difficulty": "yellow",
+      "words": ["网球", "篮球", "排球", "足球"]
+    },
+    {
+      "name": "秋天变色的树",
+      "difficulty": "green",
+      "words": ["胡杨", "银杏", "枫树", "梧桐"]
+    },
+    {
+      "name": "珍稀动物",
+      "difficulty": "blue",
+      "words": ["大熊猫", "东北虎", "丹顶鹤", "金丝猴"]
+    },
+    {
+      "name": "传统技艺",
+      "difficulty": "purple",
+      "words": ["皮影", "泥塑", "京剧", "剪纸"]
+    }
+  ]
+}
