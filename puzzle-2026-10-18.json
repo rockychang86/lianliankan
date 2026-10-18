@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-18",
+  "categories": [
+    {
+      "name": "球类运动",
+      "difficulty": "yellow",
+      "words": ["足球", "篮球", "乒乓球", "羽毛球"]
+    },
+    {
+      "name": "重阳节习俗",
+      "difficulty": "green",
+      "words": ["登高", "赏菊", "茱萸", "敬老"]
+    },
+    {
+      "name": "花卉",
+      "difficulty": "blue",
+      "words": ["菊花", "牡丹", "荷花", "梅花"]
+    },
+    {
+      "name": "前沿科技",
+      "difficulty": "purple",
+      "words": ["机器人", "风电", "新能源车", "人工智能"]
+    }
+  ]
+}
