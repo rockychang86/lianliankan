@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-19",
+  "categories": [
+    {
+      "name": "体育运动",
+      "difficulty": "yellow",
+      "words": ["马拉松", "自行车", "举重", "跳水"]
+    },
+    {
+      "name": "珍稀动物",
+      "difficulty": "green",
+      "words": ["熊猫", "东北虎", "金丝猴", "梅花鹿"]
+    },
+    {
+      "name": "中国航天",
+      "difficulty": "blue",
+      "words": ["天宫", "神舟", "火箭", "玉兔"]
+    },
+    {
+      "name": "传统工艺",
+      "difficulty": "purple",
+      "words": ["皮影", "青瓷", "刺绣", "剪纸"]
+    }
+  ]
+}

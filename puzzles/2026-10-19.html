@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>词语连连看 — 2026-10-19</title>
+  <link rel="stylesheet" href="../assets/game.css">
+</head>
+<body>
+  <div class="page">
+    <header class="site-header">
+      <h1>词语连连看</h1>
+      <p class="date">2026-10-19</p>
+    </header>
+    <p class="instructions">选择 4 个你认为相关的词语，然后点击「提交」。</p>
+    <div class="mistakes-wrap">
+      <div class="mistakes">剩余机会：<span id="mistake-count">4</span> 次 <span class="dots" id="mistake-dots"></span></div>
+      <div id="flash-message" class="flash-overlay"></div>
+    </div>
+    <div class="solved-groups" id="solved-groups"></div>
+    <div class="grid" id="grid"></div>
+    <div class="controls">
+      <button class="primary" id="submit-btn" disabled>提交</button>
+    </div>
+    <div class="overlay hidden" id="overlay"></div>
+    <footer class="site-footer">
+      <a href="../archive.html">往期回顾</a> &middot; <a href="../index.html">今日题目</a>
+    </footer>
+  </div>
+  <script>
+    const PUZZLE_DATA = {"date": "2026-10-19", "categories": [{"name": "体育运动", "difficulty": "yellow", "words": ["马拉松", "自行车", "举重", "跳水"]}, {"name": "珍稀动物", "difficulty": "green", "words": ["熊猫", "东北虎", "金丝猴", "梅花鹿"]}, {"name": "中国航天", "difficulty": "blue", "words": ["天宫", "神舟", "火箭", "玉兔"]}, {"name": "传统工艺", "difficulty": "purple", "words": ["皮影", "青瓷", "刺绣", "剪纸"]}]};
+  </script>
+  <script src="../assets/game.js"></script>
+</body>
+</html>
