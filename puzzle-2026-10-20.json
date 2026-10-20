@@ -1,0 +1,41 @@
+{
+  "date": "2026-10-20",
+  "categories": [
+    {
+      "name": "竞技体育项目",
+      "difficulty": "yellow",
+      "words": ["举重", "体操", "田径", "游泳"],
+      "source": {
+        "title": "体操世锦赛：中国女队资格赛居首 男女队晋级团体决赛",
+        "url": "https://www.news.cn/sports/20261020/72d5bfc396914ba78618a67c60bfe8dc/c.html"
+      }
+    },
+    {
+      "name": "水鸟",
+      "difficulty": "green",
+      "words": ["天鹅", "大雁", "丹顶鹤", "鸳鸯"],
+      "source": {
+        "title": "美丽中国丨天鹅凌波舞 白羽映霞光",
+        "url": "https://www.news.cn/photo/20261020/3b4ee67349904cb4922a2310d78dac79/c.html"
+      }
+    },
+    {
+      "name": "天象",
+      "difficulty": "blue",
+      "words": ["猎户座流星雨", "日食", "月食", "彗星"],
+      "source": {
+        "title": "猎户座流星雨将于22日2时前后迎来极大",
+        "url": "https://www.news.cn/local/20261020/41979fadc7b84090919aa35086e2711c/c.html"
+      }
+    },
+    {
+      "name": "古代文化遗址",
+      "difficulty": "purple",
+      "words": ["良渚", "龟兹", "敦煌", "殷墟"],
+      "source": {
+        "title": "“考古中国”项目揭示：良渚人为何重“礼”",
+        "url": "https://www.news.cn/politics/20261020/07419d5e60e74e23abd5e567704cb7f2/c.html"
+      }
+    }
+  ]
+}
