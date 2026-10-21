@@ -1,0 +1,41 @@
+{
+  "date": "2026-10-21",
+  "categories": [
+    {
+      "name": "大江大河",
+      "difficulty": "yellow",
+      "words": ["大渡河", "长江", "黄河", "珠江"],
+      "source": {
+        "title": "寻访长征地标丨大渡河畔·英勇无畏破天险",
+        "url": "https://www.news.cn/video/20261021/a15a36247f6a422faf23a8b0c46d5342/c.html"
+      }
+    },
+    {
+      "name": "星空天体",
+      "difficulty": "green",
+      "words": ["仙女座", "金牛座", "银河", "彗星"],
+      "source": {
+        "title": "秋夜来赴一场仙女座“百万光年”之约",
+        "url": "https://www.news.cn/20261021/2be75e9646fb44ac84016597148051d1/c.html"
+      }
+    },
+    {
+      "name": "中国航天",
+      "difficulty": "blue",
+      "words": ["谷神星", "神舟", "天宫", "长征"],
+      "source": {
+        "title": "谷神星一号海射型遥八运载火箭发射成功",
+        "url": "https://www.news.cn/tech/20261021/d2f97b783b5e44f4a580e7b9500f1bbd/c.html"
+      }
+    },
+    {
+      "name": "古代文明遗址",
+      "difficulty": "purple",
+      "words": ["良渚", "殷墟", "三星堆", "二里头"],
+      "source": {
+        "title": "良渚考古发现：“王陵”边上有房子，房子可能是“享殿”",
+        "url": "https://www.news.cn/culture/20261021/b5c40e48ec1e423db418a308f7dabe94/c.html"
+      }
+    }
+  ]
+}
