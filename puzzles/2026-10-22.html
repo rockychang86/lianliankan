@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>词语连连看 — 2026-10-22</title>
+  <link rel="stylesheet" href="../assets/game.css">
+</head>
+<body>
+  <div class="page">
+    <header class="site-header">
+      <h1>词语连连看</h1>
+      <p class="date">2026-10-22</p>
+    </header>
+    <p class="instructions">选择 4 个你认为相关的词语，然后点击「提交」。</p>
+    <div class="mistakes-wrap">
+      <div class="mistakes">剩余机会：<span id="mistake-count">4</span> 次 <span class="dots" id="mistake-dots"></span></div>
+      <div id="flash-message" class="flash-overlay"></div>
+    </div>
+    <div class="solved-groups" id="solved-groups"></div>
+    <div class="grid" id="grid"></div>
+    <div class="controls">
+      <button class="primary" id="submit-btn" disabled>提交</button>
+    </div>
+    <div class="overlay hidden" id="overlay"></div>
+    <footer class="site-footer">
+      <a href="../archive.html">往期回顾</a> &middot; <a href="../index.html">今日题目</a>
+    </footer>
+  </div>
+  <script>
+    const PUZZLE_DATA = {"date": "2026-10-22", "categories": [{"name": "二十四节气", "difficulty": "yellow", "words": ["霜降", "立春", "小满", "惊蛰"], "source": {"title": "霜降将至：霜染丹林处 物皆复本源", "url": "https://www.news.cn/politics/20261022/d34e136fa22c488189577fb0bce82ff2/c.html"}}, {"name": "秋日草木", "difficulty": "green", "words": ["银杏", "红枫", "胡杨", "芦苇"], "source": {"title": "新疆洛浦：万亩胡杨披金装", "url": "https://www.news.cn/photo/20261022/e907730fd3ce431d9f8c1738fdf88346/c.html"}}, {"name": "珍稀动物", "difficulty": "blue", "words": ["黑冠长臂猿", "大熊猫", "朱鹮", "杜鹃"], "source": {"title": "守护西黑冠长臂猿 共护绿水青山", "url": "https://www.news.cn/photo/20261022/62d4742678d14cf68484d038ab43f580/c.html"}}, {"name": "地貌景观", "difficulty": "purple", "words": ["喀斯特", "丹霞", "雅丹", "梯田"], "source": {"title": "在喀斯特山水间，解锁户外运动新玩法", "url": "https://www.news.cn/20261022/d2229713f5ce497f912aae494a9fdcb6/c.html"}}]};
+  </script>
+  <script src="../assets/game.js"></script>
+</body>
+</html>

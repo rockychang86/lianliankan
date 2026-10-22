@@ -1,0 +1,41 @@
+{
+  "date": "2026-10-22",
+  "categories": [
+    {
+      "name": "二十四节气",
+      "difficulty": "yellow",
+      "words": ["霜降", "立春", "小满", "惊蛰"],
+      "source": {
+        "title": "霜降将至：霜染丹林处 物皆复本源",
+        "url": "https://www.news.cn/politics/20261022/d34e136fa22c488189577fb0bce82ff2/c.html"
+      }
+    },
+    {
+      "name": "秋日草木",
+      "difficulty": "green",
+      "words": ["银杏", "红枫", "胡杨", "芦苇"],
+      "source": {
+        "title": "新疆洛浦：万亩胡杨披金装",
+        "url": "https://www.news.cn/photo/20261022/e907730fd3ce431d9f8c1738fdf88346/c.html"
+      }
+    },
+    {
+      "name": "珍稀动物",
+      "difficulty": "blue",
+      "words": ["黑冠长臂猿", "大熊猫", "朱鹮", "杜鹃"],
+      "source": {
+        "title": "守护西黑冠长臂猿 共护绿水青山",
+        "url": "https://www.news.cn/photo/20261022/62d4742678d14cf68484d038ab43f580/c.html"
+      }
+    },
+    {
+      "name": "地貌景观",
+      "difficulty": "purple",
+      "words": ["喀斯特", "丹霞", "雅丹", "梯田"],
+      "source": {
+        "title": "在喀斯特山水间，解锁户外运动新玩法",
+        "url": "https://www.news.cn/20261022/d2229713f5ce497f912aae494a9fdcb6/c.html"
+      }
+    }
+  ]
+}
