@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-23",
+  "categories": [
+    {
+      "name": "中国名桥",
+      "difficulty": "yellow",
+      "words": ["港珠澳大桥", "赵州桥", "卢沟桥", "南京长江大桥"],
+      "source": {
+        "title": "港珠澳大桥开通八年出入境旅客超1.25亿人次",
+        "url": "https://www.news.cn/gangao/20261023/32635c4ab8604947962a455a883213df/c.html"
+      }
+    },
+    {
+      "name": "大型猫科动物",
+      "difficulty": "green",
+      "words": ["雪豹", "东北虎", "云豹", "金钱豹"],
+      "source": {
+        "title": "“你们好，我是雪豹” 我国雪豹种群数量增至约5000只",
+        "url": "https://www.news.cn/20261023/b867485ecba44e069fc0123688aed333/c.html"
+      }
+    },
+    {
+      "name": "传统酒类",
+      "difficulty": "blue",
+      "words": ["黄酒", "白酒", "米酒", "果酒"],
+      "source": {
+        "title": "浙江绍兴：推动传统黄酒产业“新消费”升级",
+        "url": "https://www.news.cn/photo/20261021/5b66b0831e964340a8e42d9ae5e1d14b/c.html"
+      }
+    },
+    {
+      "name": "中国名楼",
+      "difficulty": "purple",
+      "words": ["黄鹤楼", "岳阳楼", "滕王阁", "鹳雀楼"]
+    }
+  ]
+}
