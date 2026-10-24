@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-24",
+  "categories": [
+    {
+      "name": "球类运动",
+      "difficulty": "yellow",
+      "words": ["网球", "篮球", "足球", "排球"]
+    },
+    {
+      "name": "花卉",
+      "difficulty": "green",
+      "words": ["菊花", "牡丹", "梅花", "兰花"]
+    },
+    {
+      "name": "秋季水果",
+      "difficulty": "blue",
+      "words": ["柿子", "石榴", "山楂", "柚子"]
+    },
+    {
+      "name": "传统乐器",
+      "difficulty": "purple",
+      "words": ["古筝", "二胡", "琵琶", "笛子"]
+    }
+  ]
+}
