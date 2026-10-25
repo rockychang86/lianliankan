@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-25",
+  "categories": [
+    {
+      "name": "中国传统节日",
+      "difficulty": "yellow",
+      "words": ["春节", "端午", "中秋", "清明"]
+    },
+    {
+      "name": "常见鸟类",
+      "difficulty": "green",
+      "words": ["麻雀", "喜鹊", "燕子", "天鹅"]
+    },
+    {
+      "name": "航天器",
+      "difficulty": "blue",
+      "words": ["火箭", "卫星", "飞船", "空间站"]
+    },
+    {
+      "name": "四大发明",
+      "difficulty": "purple",
+      "words": ["造纸术", "指南针", "火药", "印刷术"]
+    }
+  ]
+}
