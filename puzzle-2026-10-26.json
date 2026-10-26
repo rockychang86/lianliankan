@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-26",
+  "categories": [
+    {
+      "name": "游泳姿势",
+      "difficulty": "yellow",
+      "words": ["自由泳", "蛙泳", "仰泳", "蝶泳"]
+    },
+    {
+      "name": "茶叶种类",
+      "difficulty": "green",
+      "words": ["绿茶", "红茶", "乌龙茶", "普洱茶"]
+    },
+    {
+      "name": "中国名湖",
+      "difficulty": "blue",
+      "words": ["西湖", "太湖", "洞庭湖", "鄱阳湖"]
+    },
+    {
+      "name": "传统手工艺",
+      "difficulty": "purple",
+      "words": ["陶瓷", "刺绣", "剪纸", "木雕"]
+    }
+  ]
+}
