@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>词语连连看 — 2026-10-27</title>
+  <link rel="stylesheet" href="../assets/game.css">
+</head>
+<body>
+  <div class="page">
+    <header class="site-header">
+      <h1>词语连连看</h1>
+      <p class="date">2026-10-27</p>
+    </header>
+    <p class="instructions">选择 4 个你认为相关的词语，然后点击「提交」。</p>
+    <div class="mistakes-wrap">
+      <div class="mistakes">剩余机会：<span id="mistake-count">4</span> 次 <span class="dots" id="mistake-dots"></span></div>
+      <div id="flash-message" class="flash-overlay"></div>
+    </div>
+    <div class="solved-groups" id="solved-groups"></div>
+    <div class="grid" id="grid"></div>
+    <div class="controls">
+      <button class="primary" id="submit-btn" disabled>提交</button>
+    </div>
+    <div class="overlay hidden" id="overlay"></div>
+    <footer class="site-footer">
+      <a href="../archive.html">往期回顾</a> &middot; <a href="../index.html">今日题目</a>
+    </footer>
+  </div>
+  <script>
+    const PUZZLE_DATA = {"date": "2026-10-27", "categories": [{"name": "棋类游戏", "difficulty": "yellow", "words": ["象棋", "围棋", "军棋", "跳棋"]}, {"name": "秋季时令食材", "difficulty": "green", "words": ["板栗", "螃蟹", "红薯", "莲藕"]}, {"name": "发电方式", "difficulty": "blue", "words": ["水电", "风电", "火电", "核电"]}, {"name": "四大名著", "difficulty": "purple", "words": ["红楼梦", "西游记", "水浒传", "三国演义"]}]};
+  </script>
+  <script src="../assets/game.js"></script>
+</body>
+</html>

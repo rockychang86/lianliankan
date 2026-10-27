@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-27",
+  "categories": [
+    {
+      "name": "棋类游戏",
+      "difficulty": "yellow",
+      "words": ["象棋", "围棋", "军棋", "跳棋"]
+    },
+    {
+      "name": "秋季时令食材",
+      "difficulty": "green",
+      "words": ["板栗", "螃蟹", "红薯", "莲藕"]
+    },
+    {
+      "name": "发电方式",
+      "difficulty": "blue",
+      "words": ["水电", "风电", "火电", "核电"]
+    },
+    {
+      "name": "四大名著",
+      "difficulty": "purple",
+      "words": ["红楼梦", "西游记", "水浒传", "三国演义"]
+    }
+  ]
+}
