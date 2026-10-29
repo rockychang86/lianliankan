@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-29",
+  "categories": [
+    {
+      "name": "饮料",
+      "difficulty": "yellow",
+      "words": ["咖啡", "牛奶", "豆浆", "汽水"]
+    },
+    {
+      "name": "调味品",
+      "difficulty": "green",
+      "words": ["酱油", "食盐", "白糖", "味精"]
+    },
+    {
+      "name": "舞蹈类型",
+      "difficulty": "blue",
+      "words": ["芭蕾", "探戈", "街舞", "华尔兹"]
+    },
+    {
+      "name": "中国名山",
+      "difficulty": "purple",
+      "words": ["泰山", "华山", "黄山", "庐山"]
+    }
+  ]
+}
