@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-30",
+  "categories": [
+    {
+      "name": "太阳系行星",
+      "difficulty": "yellow",
+      "words": ["金星", "火星", "木星", "土星"]
+    },
+    {
+      "name": "面条种类",
+      "difficulty": "green",
+      "words": ["拉面", "刀削面", "炒面", "凉面"]
+    },
+    {
+      "name": "格斗项目",
+      "difficulty": "blue",
+      "words": ["摔跤", "拳击", "柔道", "跆拳道"]
+    },
+    {
+      "name": "金属",
+      "difficulty": "purple",
+      "words": ["黄金", "白银", "青铜", "钢铁"]
+    }
+  ]
+}
