@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-31",
+  "categories": [
+    {
+      "name": "川菜",
+      "difficulty": "yellow",
+      "words": ["麻婆豆腐", "宫保鸡丁", "水煮鱼", "回锅肉"]
+    },
+    {
+      "name": "蔬菜",
+      "difficulty": "green",
+      "words": ["白菜", "萝卜", "茄子", "黄瓜"]
+    },
+    {
+      "name": "中国名河",
+      "difficulty": "blue",
+      "words": ["黄河", "长江", "珠江", "淮河"]
+    },
+    {
+      "name": "文房四宝",
+      "difficulty": "purple",
+      "words": ["笔", "墨", "纸", "砚"]
+    }
+  ]
+}
