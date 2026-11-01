@@ -1,0 +1,29 @@
+{
+  "date": "2026-11-01",
+  "categories": [
+    {
+      "name": "农作物",
+      "difficulty": "yellow",
+      "words": ["晚稻", "玉米", "柿子", "花生"],
+      "source": {"title": "江西晚稻机械化收割、广西柿子丰收", "url": "https://www.cctv.com"}
+    },
+    {
+      "name": "海洋动物",
+      "difficulty": "green",
+      "words": ["海豚", "海龟", "鲸鱼", "章鱼"],
+      "source": {"title": "海洋文旅多元化发展", "url": "https://www.people.com.cn"}
+    },
+    {
+      "name": "自然现象",
+      "difficulty": "blue",
+      "words": ["云海", "流冰", "极光", "彩虹"],
+      "source": {"title": "云南长宁秋日云海、黑龙江黑河段流冰期", "url": "https://www.news.cn"}
+    },
+    {
+      "name": "中国古迹",
+      "difficulty": "purple",
+      "words": ["长城", "故宫", "兵马俑", "莫高窟"],
+      "source": {"title": "金山岭长城秋景", "url": "https://www.cctv.com"}
+    }
+  ]
+}
