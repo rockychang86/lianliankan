@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-02",
+  "categories": [
+    {
+      "name": "颜色",
+      "difficulty": "yellow",
+      "words": ["红色", "黄色", "蓝色", "绿色"]
+    },
+    {
+      "name": "季节",
+      "difficulty": "green",
+      "words": ["春天", "夏天", "秋天", "冬天"]
+    },
+    {
+      "name": "扑克花色",
+      "difficulty": "blue",
+      "words": ["红桃", "黑桃", "方块", "梅花"]
+    },
+    {
+      "name": "朝代",
+      "difficulty": "purple",
+      "words": ["唐朝", "宋朝", "明朝", "清朝"]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>词语连连看 — 2026-11-02</title>
+  <link rel="stylesheet" href="../assets/game.css">
+</head>
+<body>
+  <div class="page">
+    <header class="site-header">
+      <h1>词语连连看</h1>
+      <p class="date">2026-11-02</p>
+    </header>
+    <p class="instructions">选择 4 个你认为相关的词语，然后点击「提交」。</p>
+    <div class="mistakes-wrap">
+      <div class="mistakes">剩余机会：<span id="mistake-count">4</span> 次 <span class="dots" id="mistake-dots"></span></div>
+      <div id="flash-message" class="flash-overlay"></div>
+    </div>
+    <div class="solved-groups" id="solved-groups"></div>
+    <div class="grid" id="grid"></div>
+    <div class="controls">
+      <button class="primary" id="submit-btn" disabled>提交</button>
+    </div>
+    <div class="overlay hidden" id="overlay"></div>
+    <footer class="site-footer">
+      <a href="../archive.html">往期回顾</a> &middot; <a href="../index.html">今日题目</a>
+    </footer>
+  </div>
+  <script>
+    const PUZZLE_DATA = {"date": "2026-11-02", "categories": [{"name": "颜色", "difficulty": "yellow", "words": ["红色", "黄色", "蓝色", "绿色"]}, {"name": "季节", "difficulty": "green", "words": ["春天", "夏天", "秋天", "冬天"]}, {"name": "扑克花色", "difficulty": "blue", "words": ["红桃", "黑桃", "方块", "梅花"]}, {"name": "朝代", "difficulty": "purple", "words": ["唐朝", "宋朝", "明朝", "清朝"]}]};
+  </script>
+  <script src="../assets/game.js"></script>
+</body>
+</html>
