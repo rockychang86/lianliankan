@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-03",
+  "categories": [
+    {
+      "name": "家人",
+      "difficulty": "yellow",
+      "words": ["爸爸", "妈妈", "哥哥", "姐姐"]
+    },
+    {
+      "name": "身体部位",
+      "difficulty": "green",
+      "words": ["眼睛", "鼻子", "耳朵", "嘴巴"]
+    },
+    {
+      "name": "职业",
+      "difficulty": "blue",
+      "words": ["老师", "医生", "画家", "歌手"]
+    },
+    {
+      "name": "生肖",
+      "difficulty": "purple",
+      "words": ["老鼠", "老虎", "兔子", "猴子"]
+    }
+  ]
+}
