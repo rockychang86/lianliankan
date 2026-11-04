@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-04",
+  "categories": [
+    {
+      "name": "形状",
+      "difficulty": "yellow",
+      "words": ["圆形", "方形", "三角形", "长方形"]
+    },
+    {
+      "name": "文具",
+      "difficulty": "green",
+      "words": ["铅笔", "橡皮", "尺子", "书包"]
+    },
+    {
+      "name": "天空",
+      "difficulty": "blue",
+      "words": ["太阳", "月亮", "星星", "白云"]
+    },
+    {
+      "name": "交通工具",
+      "difficulty": "purple",
+      "words": ["飞机", "火车", "轮船", "汽车"]
+    }
+  ]
+}
