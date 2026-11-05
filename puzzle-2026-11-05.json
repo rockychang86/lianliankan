@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-05",
+  "categories": [
+    {
+      "name": "服装",
+      "difficulty": "yellow",
+      "words": ["帽子", "裤子", "鞋子", "衬衫"]
+    },
+    {
+      "name": "餐具",
+      "difficulty": "green",
+      "words": ["碗", "筷子", "盘子", "勺子"]
+    },
+    {
+      "name": "家用电器",
+      "difficulty": "blue",
+      "words": ["冰箱", "电视", "空调", "风扇"]
+    },
+    {
+      "name": "家具",
+      "difficulty": "purple",
+      "words": ["桌子", "椅子", "沙发", "衣柜"]
+    }
+  ]
+}
