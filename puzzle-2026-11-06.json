@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-06",
+  "categories": [
+    {
+      "name": "昆虫",
+      "difficulty": "yellow",
+      "words": ["蜜蜂", "蝴蝶", "蚂蚁", "蜻蜓"]
+    },
+    {
+      "name": "树木",
+      "difficulty": "green",
+      "words": ["松树", "柳树", "杨树", "枫树"]
+    },
+    {
+      "name": "天气",
+      "difficulty": "blue",
+      "words": ["下雨", "下雪", "刮风", "打雷"]
+    },
+    {
+      "name": "运动",
+      "difficulty": "purple",
+      "words": ["游泳", "跑步", "爬山", "滑雪"]
+    }
+  ]
+}
