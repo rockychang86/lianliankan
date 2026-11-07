@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-07",
+  "categories": [
+    {
+      "name": "宠物",
+      "difficulty": "yellow",
+      "words": ["小猫", "小狗", "金鱼", "乌龟"]
+    },
+    {
+      "name": "房间",
+      "difficulty": "green",
+      "words": ["厨房", "卧室", "客厅", "书房"]
+    },
+    {
+      "name": "味道",
+      "difficulty": "blue",
+      "words": ["酸", "甜", "咸", "苦"]
+    },
+    {
+      "name": "情绪",
+      "difficulty": "purple",
+      "words": ["开心", "生气", "害怕", "痛苦"]
+    }
+  ]
+}
