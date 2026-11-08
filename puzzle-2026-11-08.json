@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-08",
+  "categories": [
+    {
+      "name": "方向",
+      "difficulty": "yellow",
+      "words": ["东", "南", "西", "北"]
+    },
+    {
+      "name": "动物园",
+      "difficulty": "green",
+      "words": ["熊猫", "大象", "河马", "长颈鹿"]
+    },
+    {
+      "name": "星期",
+      "difficulty": "blue",
+      "words": ["周一", "周二", "周三", "周四"]
+    },
+    {
+      "name": "国家",
+      "difficulty": "purple",
+      "words": ["中国", "日本", "韩国", "南非"]
+    }
+  ]
+}
