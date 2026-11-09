@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-09",
+  "categories": [
+    {
+      "name": "农场动物",
+      "difficulty": "yellow",
+      "words": ["牛", "羊", "猪", "鸡"]
+    },
+    {
+      "name": "早餐",
+      "difficulty": "green",
+      "words": ["鸡蛋", "牛奶", "包子", "油条"]
+    },
+    {
+      "name": "动作",
+      "difficulty": "blue",
+      "words": ["唱歌", "跳舞", "睡觉", "看书"]
+    },
+    {
+      "name": "月份",
+      "difficulty": "purple",
+      "words": ["一月", "四月", "七月", "十月"]
+    }
+  ]
+}
