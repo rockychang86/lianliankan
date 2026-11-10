@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-10",
+  "categories": [
+    {
+      "name": "数字",
+      "difficulty": "yellow",
+      "words": ["一", "二", "三", "四"]
+    },
+    {
+      "name": "水果",
+      "difficulty": "green",
+      "words": ["苹果", "香蕉", "葡萄", "西瓜"]
+    },
+    {
+      "name": "主食",
+      "difficulty": "blue",
+      "words": ["米饭", "面条", "馒头", "饺子"]
+    },
+    {
+      "name": "学校科目",
+      "difficulty": "purple",
+      "words": ["语文", "数学", "英语", "美术"]
+    }
+  ]
+}
