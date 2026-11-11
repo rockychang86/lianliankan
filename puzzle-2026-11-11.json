@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-11",
+  "categories": [
+    {
+      "name": "蔬菜",
+      "difficulty": "yellow",
+      "words": ["白菜", "萝卜", "茄子", "黄瓜"]
+    },
+    {
+      "name": "乐器",
+      "difficulty": "green",
+      "words": ["钢琴", "吉他", "二胡", "笛子"]
+    },
+    {
+      "name": "鸟",
+      "difficulty": "blue",
+      "words": ["麻雀", "老鹰", "鸽子", "杜鹃"]
+    },
+    {
+      "name": "花",
+      "difficulty": "purple",
+      "words": ["玫瑰", "菊花", "兰花", "荷花"]
+    }
+  ]
+}

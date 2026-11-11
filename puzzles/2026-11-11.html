@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>词语连连看 — 2026-11-11</title>
+  <link rel="stylesheet" href="../assets/game.css">
+</head>
+<body>
+  <div class="page">
+    <header class="site-header">
+      <h1>词语连连看</h1>
+      <p class="date">2026-11-11</p>
+    </header>
+    <p class="instructions">选择 4 个你认为相关的词语，然后点击「提交」。</p>
+    <div class="mistakes-wrap">
+      <div class="mistakes">剩余机会：<span id="mistake-count">4</span> 次 <span class="dots" id="mistake-dots"></span></div>
+      <div id="flash-message" class="flash-overlay"></div>
+    </div>
+    <div class="solved-groups" id="solved-groups"></div>
+    <div class="grid" id="grid"></div>
+    <div class="controls">
+      <button class="primary" id="submit-btn" disabled>提交</button>
+    </div>
+    <div class="overlay hidden" id="overlay"></div>
+    <footer class="site-footer">
+      <a href="../archive.html">往期回顾</a> &middot; <a href="../index.html">今日题目</a>
+    </footer>
+  </div>
+  <script>
+    const PUZZLE_DATA = {"date": "2026-11-11", "categories": [{"name": "蔬菜", "difficulty": "yellow", "words": ["白菜", "萝卜", "茄子", "黄瓜"]}, {"name": "乐器", "difficulty": "green", "words": ["钢琴", "吉他", "二胡", "笛子"]}, {"name": "鸟", "difficulty": "blue", "words": ["麻雀", "老鹰", "鸽子", "杜鹃"]}, {"name": "花", "difficulty": "purple", "words": ["玫瑰", "菊花", "兰花", "荷花"]}]};
+  </script>
+  <script src="../assets/game.js"></script>
+</body>
+</html>
