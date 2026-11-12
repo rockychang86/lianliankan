@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-12",
+  "categories": [
+    {
+      "name": "节日",
+      "difficulty": "yellow",
+      "words": ["春节", "中秋", "端午", "清明"]
+    },
+    {
+      "name": "名山",
+      "difficulty": "green",
+      "words": ["泰山", "华山", "黄山", "庐山"]
+    },
+    {
+      "name": "茶",
+      "difficulty": "blue",
+      "words": ["红茶", "绿茶", "乌龙", "铁观音"]
+    },
+    {
+      "name": "云南地名",
+      "difficulty": "purple",
+      "words": ["大理", "丽江", "昆明", "普洱"]
+    }
+  ]
+}
