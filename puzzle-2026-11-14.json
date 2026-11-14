@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-14",
+  "categories": [
+    {
+      "name": "冰雪运动",
+      "difficulty": "yellow",
+      "words": ["滑冰", "滑雪", "冰球", "冰壶"]
+    },
+    {
+      "name": "水上运动",
+      "difficulty": "green",
+      "words": ["游泳", "跳水", "水球", "冲浪"]
+    },
+    {
+      "name": "田径运动",
+      "difficulty": "blue",
+      "words": ["跳高", "跳远", "短跑", "铅球"]
+    },
+    {
+      "name": "球类运动",
+      "difficulty": "purple",
+      "words": ["篮球", "足球", "排球", "网球"]
+    }
+  ]
+}
