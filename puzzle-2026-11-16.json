@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-16",
+  "categories": [
+    {
+      "name": "饮料",
+      "difficulty": "yellow",
+      "words": ["咖啡", "牛奶", "果汁", "汽水"]
+    },
+    {
+      "name": "厨房用具",
+      "difficulty": "green",
+      "words": ["菜刀", "炒锅", "砧板", "汤勺"]
+    },
+    {
+      "name": "调味品",
+      "difficulty": "blue",
+      "words": ["酱油", "食盐", "白糖", "陈醋"]
+    },
+    {
+      "name": "烹饪方法",
+      "difficulty": "purple",
+      "words": ["清蒸", "红烧", "油炸", "爆炒"]
+    }
+  ]
+}
