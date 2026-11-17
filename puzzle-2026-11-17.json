@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-17",
+  "categories": [
+    {
+      "name": "绘画",
+      "difficulty": "yellow",
+      "words": ["国画", "油画", "水彩", "素描"]
+    },
+    {
+      "name": "舞蹈",
+      "difficulty": "green",
+      "words": ["芭蕾", "街舞", "秧歌", "探戈"]
+    },
+    {
+      "name": "戏曲剧种",
+      "difficulty": "blue",
+      "words": ["京剧", "越剧", "豫剧", "粤剧"]
+    },
+    {
+      "name": "文学体裁",
+      "difficulty": "purple",
+      "words": ["小说", "散文", "诗歌", "戏剧"]
+    }
+  ]
+}
