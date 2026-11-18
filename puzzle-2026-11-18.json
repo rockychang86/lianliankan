@@ -1,0 +1,26 @@
+{
+  "date": "2026-11-18",
+  "categories": [
+    {
+      "name": "星座",
+      "difficulty": "yellow",
+      "words": ["狮子座", "天蝎座", "双子座", "白羊座"]
+    },
+    {
+      "name": "天文现象",
+      "difficulty": "green",
+      "words": ["流星雨", "日食", "月食", "极光"],
+      "source": {"title": "星空相册丨狮子座流星雨迎来活跃期", "url": "https://www.news.cn/photo/20261118/a2a46434bb4348b0bcac186973a272fd/c.html"}
+    },
+    {
+      "name": "航天器",
+      "difficulty": "blue",
+      "words": ["卫星", "火箭", "飞船", "空间站"]
+    },
+    {
+      "name": "行星",
+      "difficulty": "purple",
+      "words": ["水星", "金星", "木星", "土星"]
+    }
+  ]
+}
