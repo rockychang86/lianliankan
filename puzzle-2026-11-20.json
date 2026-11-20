@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-20",
+  "categories": [
+    {
+      "name": "医院",
+      "difficulty": "yellow",
+      "words": ["医生", "护士", "药剂师", "牙医"]
+    },
+    {
+      "name": "学校",
+      "difficulty": "green",
+      "words": ["老师", "校长", "教授", "班主任"]
+    },
+    {
+      "name": "舞台",
+      "difficulty": "blue",
+      "words": ["演员", "歌手", "魔术师", "指挥家"]
+    },
+    {
+      "name": "厨房",
+      "difficulty": "purple",
+      "words": ["厨师", "糕点师", "面包师", "帮厨"]
+    }
+  ]
+}
