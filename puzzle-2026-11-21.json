@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-21",
+  "categories": [
+    {
+      "name": "时段",
+      "difficulty": "yellow",
+      "words": ["清晨", "正午", "黄昏", "午夜"]
+    },
+    {
+      "name": "季节",
+      "difficulty": "green",
+      "words": ["春天", "夏天", "秋天", "冬天"]
+    },
+    {
+      "name": "天气",
+      "difficulty": "blue",
+      "words": ["晴天", "阴天", "下雪", "大风"]
+    },
+    {
+      "name": "二十四节气",
+      "difficulty": "purple",
+      "words": ["小雪", "立冬", "冬至", "大寒"]
+    }
+  ]
+}
