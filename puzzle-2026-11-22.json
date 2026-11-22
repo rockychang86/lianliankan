@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-22",
+  "categories": [
+    {
+      "name": "平辈",
+      "difficulty": "yellow",
+      "words": ["哥哥", "姐姐", "弟弟", "妹妹"]
+    },
+    {
+      "name": "晚辈",
+      "difficulty": "green",
+      "words": ["儿子", "女儿", "侄子", "外甥"]
+    },
+    {
+      "name": "父系长辈",
+      "difficulty": "blue",
+      "words": ["爷爷", "奶奶", "伯伯", "姑姑"]
+    },
+    {
+      "name": "母系长辈",
+      "difficulty": "purple",
+      "words": ["外公", "外婆", "舅舅", "姨妈"]
+    }
+  ]
+}
