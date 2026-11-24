@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>词语连连看 — 2026-11-24</title>
+  <link rel="stylesheet" href="../assets/game.css">
+</head>
+<body>
+  <div class="page">
+    <header class="site-header">
+      <h1>词语连连看</h1>
+      <p class="date">2026-11-24</p>
+    </header>
+    <p class="instructions">选择 4 个你认为相关的词语，然后点击「提交」。</p>
+    <div class="mistakes-wrap">
+      <div class="mistakes">剩余机会：<span id="mistake-count">4</span> 次 <span class="dots" id="mistake-dots"></span></div>
+      <div id="flash-message" class="flash-overlay"></div>
+    </div>
+    <div class="solved-groups" id="solved-groups"></div>
+    <div class="grid" id="grid"></div>
+    <div class="controls">
+      <button class="primary" id="submit-btn" disabled>提交</button>
+    </div>
+    <div class="overlay hidden" id="overlay"></div>
+    <footer class="site-footer">
+      <a href="../archive.html">往期回顾</a> &middot; <a href="../index.html">今日题目</a>
+    </footer>
+  </div>
+  <script>
+    const PUZZLE_DATA = {"date": "2026-11-24", "categories": [{"name": "海鲜", "difficulty": "yellow", "words": ["鲍鱼", "螃蟹", "带鱼", "对虾"], "source": {"title": "山东荣成：鲍鱼转场“越冬”忙", "url": "http://pic.people.com.cn/n1/2026/1124/c1016-40839464.html"}}, {"name": "水果", "difficulty": "green", "words": ["柿子", "石榴", "葡萄", "梨"]}, {"name": "坚果", "difficulty": "blue", "words": ["板栗", "花生", "白果", "核桃"]}, {"name": "蔬菜", "difficulty": "purple", "words": ["大葱", "白菜", "菠菜", "海带"], "source": {"title": "一棵大葱凭什么撑起35亿元产值？", "url": "https://www.news.cn/fortune/20261124/ec446e5042374ad081e8f31446194a8f/c.html"}}]};
+  </script>
+  <script src="../assets/game.js"></script>
+</body>
+</html>
