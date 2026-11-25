@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-25",
+  "categories": [
+    {
+      "name": "文具",
+      "difficulty": "yellow",
+      "words": ["铅笔", "橡皮", "尺子", "钢笔"]
+    },
+    {
+      "name": "衣物",
+      "difficulty": "green",
+      "words": ["衬衫", "裤子", "帽子", "围巾"]
+    },
+    {
+      "name": "电器",
+      "difficulty": "blue",
+      "words": ["冰箱", "电视", "空调", "洗衣机"]
+    },
+    {
+      "name": "家具",
+      "difficulty": "purple",
+      "words": ["沙发", "椅子", "书桌", "衣柜"]
+    }
+  ]
+}
