@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-26",
+  "categories": [
+    {
+      "name": "弹拨乐器",
+      "difficulty": "yellow",
+      "words": ["古筝", "琵琶", "吉他", "竖琴"]
+    },
+    {
+      "name": "吹奏乐器",
+      "difficulty": "green",
+      "words": ["笛子", "唢呐", "长笛", "口琴"]
+    },
+    {
+      "name": "打击乐器",
+      "difficulty": "blue",
+      "words": ["鼓", "锣", "铃鼓", "木琴"]
+    },
+    {
+      "name": "拉弦乐器",
+      "difficulty": "purple",
+      "words": ["二胡", "小提琴", "大提琴", "马头琴"]
+    }
+  ]
+}
