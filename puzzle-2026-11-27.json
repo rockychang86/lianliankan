@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-27",
+  "categories": [
+    {
+      "name": "五官",
+      "difficulty": "yellow",
+      "words": ["眼睛", "鼻子", "耳朵", "嘴巴"]
+    },
+    {
+      "name": "四肢",
+      "difficulty": "green",
+      "words": ["胳膊", "大腿", "膝盖", "脚踝"]
+    },
+    {
+      "name": "内脏",
+      "difficulty": "blue",
+      "words": ["心脏", "肝脏", "肺", "肾脏"]
+    },
+    {
+      "name": "其他部位",
+      "difficulty": "purple",
+      "words": ["额头", "下巴", "肩膀", "腰"]
+    }
+  ]
+}
