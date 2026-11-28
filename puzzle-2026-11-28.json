@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-28",
+  "categories": [
+    {
+      "name": "海域",
+      "difficulty": "yellow",
+      "words": ["渤海", "黄海", "东海", "南海"]
+    },
+    {
+      "name": "名山",
+      "difficulty": "green",
+      "words": ["泰山", "华山", "黄山", "峨眉山"]
+    },
+    {
+      "name": "湖泊",
+      "difficulty": "blue",
+      "words": ["太湖", "西湖", "洞庭湖", "青海湖"]
+    },
+    {
+      "name": "岛屿",
+      "difficulty": "purple",
+      "words": ["海南岛", "台湾岛", "崇明岛", "鼓浪屿"]
+    }
+  ]
+}
